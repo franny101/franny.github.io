@@ -1,0 +1,113 @@
+body {
+    height: 75px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)), url("./image/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+nav {
+    height: 75px;
+    width: 90%;
+    background-color: #5d87dd;
+    line-height: 20px;
+    padding: 0px 100px;
+}
+
+nav .logo{
+    color: #ffff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+nav .logo p{
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a{
+    color: #ffff;
+    display: block;
+    text-decoration: none;
+    padding: 0px 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: #fa500f;
+    background-color: #3c4659;
+    cursor: pointer;
+    transition: 0.5s easy;
+}
+
+nav ul li .active{
+    color: #fa500f;
+    background-color: #3c4659;
+    border-radius: 25px;
+}
+
+nav ul li ul{
+    position: absolute;
+    background-color: #5d87dd;
+    display: none;
+}
+
+nav  ul li:hover ul{
+    display: block;
+}
+
+nav  ul li:hover ul li a{
+    width: 200px;
+}
+
+#showcase{
+    margin-top: 20px;
+    padding: 15px;
+}
+.container{
+    padding-left: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#showcase h1{
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#showcase p{
+    color: #ffff;
+    text-transform: uppercase;
+    margin-top: 45px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer p{
+    background-color: #f0000f;
+    color: #ffff;
+    margin-top: 200px; 
+    padding: 20px;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 200vh;
+}
